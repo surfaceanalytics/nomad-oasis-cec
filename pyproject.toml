@@ -28,7 +28,9 @@ repository = "https://github.com/surfaceanalytics/nomad-oasis-cec"
 [project.optional-dependencies]
 # Add your plugins to the list below.
 plugins = [
- "nomad-north-jupyter>=0.2.5"
+ "nomad-north-jupyter>=0.2.5",
+ "pynxtools>=0.14.1",
+ "pynxtools-xps>=0.6.2",
 ]
 jupyter = ["jupyter-events"]
 gpu-action = []
